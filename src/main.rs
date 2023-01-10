@@ -32,7 +32,7 @@ fn main() {
         let result = creator(num);
         println!("{:#?}", result);
         result_to_file(result, file_name);
-        print!("Happy Hacking");
+        println!("Happy Hacking");
         break;
     }
 }
